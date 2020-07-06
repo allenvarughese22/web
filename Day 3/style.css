@@ -1,0 +1,44 @@
+button
+ {
+     color: aqua;
+ }
+
+
+ #para1
+ {
+    color: indigo
+    ;
+}
+
+#para2
+{
+   color: red
+   ;
+}
+
+.first
+{
+    color: sienna;
+}
+
+.out_div{
+    margin-left: 100px;
+    margin-top: 100px;
+    color: black;
+    background: violet;
+    width: 1000px;
+    height: 300px;
+}
+
+.white
+{
+    color: #ffffff;
+}
+
+.div_inside
+{
+     background-color: lightyellow;
+     border: lightgreen solid;
+     border-width: 10px;
+     margin: 50px;
+}
