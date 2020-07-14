@@ -53,14 +53,17 @@
                     <p class="right-second-heading"> It's quick and easy. </p>
                 </div>
                 <div class="create-account-details"> 
+
+                <form action="2html.html" class="signup-form" id="signup-form">
+                
                     <div >
-                        <input  class="name-input" placeholder="First Name"> 
-                        <input  class="name-input" placeholder="Surname"> 
+                        <input  name="fname" class="name-input" type="text" placeholder="First Name"> 
+                        <input  name="sname" class="name-input" type="text" placeholder="Surname"> 
                     </div>
                     
                     <div>
-                        <input class="mobile-input" placeholder="Molile number or email address"> 
-                        <input class="mobile-input" placeholder="New Password">
+                        <input name="email" class="mobile-input" type="text" placeholder="Molile number or email address"> 
+                        <input name="newpassword" class="mobile-input" type="text" placeholder="New Password">
                     </div>
 
 
@@ -69,8 +72,8 @@
                     </div>
                          
                     <div>
-                        <select  title="Day" class="selection-box" aria-label="Date">
-                            <option value="0"> Day</option> 
+                        <select  name="day"  class="selection-box" aria-label="Date">
+                            <option value=""> Day</option> 
                             <option value="1"> 1</option> 
                             <option value="2"> 2</option> 
                             <option value="3">3</option> 
@@ -80,8 +83,8 @@
                             <option value="7"> 7</option> 
 
                         </select>
-                        <select  title="Month" class="selection-box" aria-label="Month">
-                            <option value="0"> Month</option> 
+                        <select  name="month" title="Month" class="selection-box" aria-label="Month">
+                            <option value=""> Month</option> 
                             <option value="1"> January</option> 
                             <option value="2"> February</option> 
                             <option value="3">March</option> 
@@ -91,8 +94,8 @@
                             <option value="7"> July</option> 
 
                         </select>
-                        <select  title="Year" class="selection-box" aria-label="Year">
-                            <option value="0"> 1992</option> 
+                        <select name="year" title="Year" class="selection-box" aria-label="Year">
+                            <option value=""> 1992</option> 
                             <option value="1"> 1993</option> 
                             <option value="2"> 1994</option> 
                             <option value="3">1995</option> 
@@ -130,26 +133,28 @@
                             
 
                        </div>
+
+                       <div>
+                           <button class="signup" type="submit"> SignUp </button>
+                       </div>
                         
+
                         
 
                     </div>
-                    <div>
-                        
-                        
+                    <div>          
+                       
 
                     </div>
 
                     <div>
-                        
-                         
+                     
 
                     </div>
                     
-                </div>
-                
-                    
-                
+                 </div>
+                 </form>
+
 
 
             </div>
@@ -157,6 +162,17 @@
 
     </div>
 
-    
+ <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"> </script>
+
+<script src="script.js">
+
+</script>
+
+
 </body>
 </html>

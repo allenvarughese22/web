@@ -145,3 +145,13 @@ body
 .sssradio{
     float: left;
 }
+
+.signup{
+    margin-top: 30px;
+    background:linear-gradient(rgb(150, 229, 134),green);
+    color: white;
+    width: 200px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 6px;
+}
